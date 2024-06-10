@@ -2,8 +2,8 @@
 
 📜 A minimalist startpage for your browser.
 Simply add and configure your favorites links in a content file, you can group them as you want.
-
 Page can be hosted on a webserver to be used into various browser and devices or used localy from your computer.
+By default Firefox does not allow to change new tab page, you change this with [this extension](https://addons.mozilla.org/fr/firefox/addon/new-tab-override/)
 
 ![Screenshot Hugo-static-startpage Theme](https://raw.githubusercontent.com/atlza/hugo-static-startpage/main/static/capture/hugo-static-startpage.png)
 
@@ -57,6 +57,12 @@ cd /content/icons/
 Please use [GitHub issues](https://github.com/atlza/mugoPhotos/issues) and [Pull Requests](https://github.com/atlza/mugoPhotos/pulls).
 
 If you do not have a GitHub-account, feel free to hit me up via e-mail (see [atlza.com](https://www.atlza.com)).
+
+## Next steps
+
+- Add feature to live search in links.
+- change background without editing css
+- add exemple site
 
 ## Special Thanks 🎁
 
