@@ -5,7 +5,7 @@ Simply add and configure your favorites links in a content file, you can group t
 
 Page can be hosted on a webserver to be used into various browser and devices or used localy from your computer.
 
-![Screenshot mugoPhotos Theme](https://github.com/atlza/mugoPhotos/raw/main/static/capture/mugoPhotos.png)
+![Screenshot Hugo-static-startpage Theme](https://raw.githubusercontent.com/atlza/hugo-static-startpage/main/static/capture/hugo-static-startpage.png)
 
 ### 📦 Tech Stack
 
