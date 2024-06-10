@@ -5,3 +5,6 @@ createIcons({
     ArrowRight, PersonStanding
   }
 });
+
+document.getElementById("search").focus();
+

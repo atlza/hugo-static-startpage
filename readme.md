@@ -3,7 +3,10 @@
 📜 A minimalist startpage for your browser.
 Simply add and configure your favorites links in a content file, you can group them as you want.
 Page can be hosted on a webserver to be used into various browser and devices or used localy from your computer.
-By default Firefox does not allow to change new tab page, you change this with [this extension](https://addons.mozilla.org/fr/firefox/addon/new-tab-override/)
+
+**Chrome** does not allow you to change new tab page url, you can do it with [this extension](https://chromewebstore.google.com/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
+**Firefox** does not allow to change new tab page, you can change it with [this extension](https://addons.mozilla.org/fr/firefox/addon/new-tab-override/)
+
 
 ![Screenshot Hugo-static-startpage Theme](https://raw.githubusercontent.com/atlza/hugo-static-startpage/main/static/capture/hugo-static-startpage.png)
 
