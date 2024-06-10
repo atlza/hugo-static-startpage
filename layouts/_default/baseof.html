@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+    {{- partial "head.html" . -}}
+    <body class="scroll-smooth" x-data="{ mobileMenuOpen : false }"  >
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+
+    {{ $scripts := resources.Get "js/script.js" | js.Build }}
+    {{ if .Site.IsServer }}
+      <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
+    {{ else }}
+      <script type="text/javascript" src="{{ $scripts.Permalink }}" ></script>
+    {{ end }}    
+</html>

@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="main container mx-auto flex flex-col lg:flex-row flex-wrap align-self-center">
+  <header>
+    <h1 class="text-center">{{ .Params.h1 }}</h1>
+    <form action="https://duckduckgo.com/" method="get" class="flex justify-center">
+      <img src="/imgs/duckduckgo.min.png" alt="logo duckduckgo"  class="aspect-square" />
+      <input type="text" name="q" placeholder="Search with DuckDuckGo" />
+    </form>    
+  </header>
+
+  {{ range $block := .Params.blocks }}
+
+
+      <div class="block">
+        <h2 >{{ $block.title }}</h2>
+
+        <div class="flex flex-wrap flex-row">
+          {{ range $link := $block.links }}
+            <a href="{{ $link.url }}" title="{{ $link.name }}" target="_blank" class="px-1">
+              <img src="{{ $link.icon }}" height="32px" width="32px" />
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+
+  {{ end }}
+    
+</section>
+{{ end }}
