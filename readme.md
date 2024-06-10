@@ -1,19 +1,33 @@
-# mugoPhotos !
+# Hugo Static Startpage !
 
-📜 A minimalist multi-pages [Hugo](https://gohugo.io/)-theme for photographers'websites.
+📜 A minimalist startpage for your browser.
+Simply add and configure your favorites links in a content file, you can group them as you want.
+
+Page can be hosted on a webserver to be used into various browser and devices or used localy from your computer.
 
 ![Screenshot mugoPhotos Theme](https://github.com/atlza/mugoPhotos/raw/main/static/capture/mugoPhotos.png)
 
+### 📦 Tech Stack
+
+- [Hugo](https://gohugo.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PostCSS](https://postcss.org/)
+- [PurgeCSS](https://purgecss.com/)
+- [AutoPrefixer](https://autoprefixer.github.io/)
+- [Markdown](https://markdownguide.org/)
+- [Lucide]([https://prettier.io/](https://lucide.dev))
+- [SimpleIcons]([https://jshint.com/](https://simpleicons.org/))
+
 ## Demo
 
-For a current & working demo of this theme please check out https://www.atlza.com/ 🎯.
+For a current & working demo of this theme please check out https://start.atlza.com/ 🎯.
 
 ## Installation
 
 If you already have a hugo site on your machine, you can simply add this theme via
 
 ```
-git submodule add https://github.com/atlza/mugoPhotos.git themes/mugoPhotos
+git submodule add https://github.com/atlza/hugo-static-startpage.git themes/hugo-static-startpage
 ```
 
 For more information read the official [setup guide][hugo-setup-guide] of Hugo.
@@ -26,16 +40,16 @@ If you are starting fresh, simply copy over the contents of the `exampleSite`-di
 
 ### Adding content
 
-You can add **a new section to the homepage** via running
+You can add **a new section to the startpage** via editing
 
 ```
-hugo new homepage/my-new-content.md
+vim content/_index.md
 ```
 
-To create **a page separate from the homepage**, run
+You can add icons for links in /content/icons/ folder
 
 ```
-hugo new my-new-page.md
+cd /content/icons/
 ```
 
 ## Issues / Feedback / Contributing
@@ -46,9 +60,10 @@ If you do not have a GitHub-account, feel free to hit me up via e-mail (see [atl
 
 ## Special Thanks 🎁
 
-- Go to [Yannick Schutz](https://github.com/ys/bonjour), for the idea 
+- Goes to [Simon Hamp](https://github.com/simonhamp), for the idea, he built something similar, more dynamic with laravel
+- Default background image : [Drew Beamer](https://unsplash.com/fr/@dbeamer_jpg)
 
 ## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Guillaume Le Roy](https://www.atlza.com)
-# hugo-static-startpage
+

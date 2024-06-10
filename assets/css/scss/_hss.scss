@@ -5,7 +5,7 @@ body {
     background-size: cover;
 
     section.main{
-        @apply self-center -mt-24;
+        @apply self-center -mt-24 p-6;
 
         header{
             @apply basis-full mb-24;
@@ -38,7 +38,7 @@ h2, .h2{
 }
 
 .block{
-    @apply basis-1/3 mb-24;
+    @apply basis-1/3 mb-16 md:mb-24;
 }
 
 footer{
