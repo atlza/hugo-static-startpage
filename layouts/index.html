@@ -14,9 +14,9 @@
       <div class="block">
         <h2 >{{ $block.title }}</h2>
 
-        <div class="flex flex-wrap flex-row">
+        <div class="flex flex-wrap flex-row min-h-3">
           {{ range $link := $block.links }}
-            <a href="{{ $link.url }}" title="{{ $link.name }}" target="_blank" class="px-1">
+            <a href="{{ $link.url }}" title="{{ $link.name }}" class="linkout h-3 px-1">
               <img src="{{ $link.icon }}" height="32px" width="32px" />
             </a>
           {{ end }}
